@@ -1,6 +1,6 @@
 import React from 'react'
 import { Player } from '@lottiefiles/react-lottie-player';
-import web from '../lotties/allwebdev.json'
+import web from '../lotties/animation_ll11q3wj.json'
 const Project = () => {
     return (
         <> <div className="flex flex-wrap justify-center mb-9 w-6/6">
@@ -21,7 +21,7 @@ const Project = () => {
           speed={0}
           style={{ height: '400px', width: '400px' }}
         />
-                    <div className='flex-col '>
+                    <div className='flex-col'>
                         <h1 className='text-5xl py-4 text-blue-600 basis-1/2'>PROJECTS</h1>
                         <div className='py-5'>
                             <span className='text-2xl text-red-700'>Photo Website: </span><br/>

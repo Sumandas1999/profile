@@ -5,24 +5,24 @@ function Tabs() {
 
   const data = [
     {
-      heading: "MY PROFILE",
-      name: "Out of Canada's 13 provinces and territories, 11 have been affected by wildfires since March 2023, culminating in the worst wildfire seasonin recorded Canadian history",
+      heading: "",
+      name: "  I have hands-on experience as a web developer intern, contributing to the development of web applications. I collaborated with a team, honed my Java, HTML, and CSS skills, and gained exposure to backend technologies. I also assisted in code reviews and deployment processes, enhancing my understanding of full-stack development.",
     },
 
     {
-      heading: "MY PROFILE 2",
-      name: "According to authorities, conditions like these so early in the season are unprecedented and, due to climate change, may continue to increase in frequency and severity",
+      heading: "",
+      name: "HTML , CSS , JavaScript , React , Git , Node.js , Docker ",
     },
 
     {
-      heading: "MY PROFILE 3",
-      name: "Smoke emitted from the wildfires has caused air quality alerts and evacuations in Canada, the United States, and even Europe",
+      heading: " ",
+      name: " Outside of my web development endeavors, I have a diverse range of interests. I find joy in cooking delectable dishes, expressing my creativity through sketching, and losing myself in the world of musical instruments. These hobbies not only bring balance to my life but also fuel my passion for continuous learning and personal growth. ",
     },
   ];
 
   const renderData = data[click];
 
-  const button = ["GitHub", "Experience", "Extra"];
+  const button = ["GEPTON", "Skills", "Extra"];
 
   const buttonRender = button.map((button, index) => {
     if(click === index){
