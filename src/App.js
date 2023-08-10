@@ -22,7 +22,8 @@ function App() {
             <ul className='text-white font-normal text-2xl'>SUMAN DAS</ul>
             {/* <ul className='text-white hover:text-sky-400'><a href={About}>ABOUT</a></ul>
             <ul className='text-white hover:text-sky-400'>PROJECTS</ul>
-            <ul className='text-white hover:text-sky-400'> RESUME</ul> */}
+            <ul className='text-white hover:text-sky-400'> RESUME</ul>  no need to change
+            */}
           </ul>
         </nav>
       </div>
