@@ -11,7 +11,7 @@ function Tabs() {
 
     {
       heading: "",
-      name: "HTML , CSS , JavaScript , React , Git , Node.js , Docker ",
+      name: "  HTML , CSS , JavaScript , React , Git , Node.js , Docker ",
     },
 
     {
@@ -28,7 +28,7 @@ function Tabs() {
     if(click === index){
       return (
         <button
-          className=" py-4  w-48 bg-sky-700 ... border-l-2 border-slate-400 "
+          className=" button-1 py-4  w-48 bg-sky-700 ... border-l-2 border-slate-400 "
           onClick={() => setClick(index)}
           key={index}
         >
@@ -38,7 +38,7 @@ function Tabs() {
     }
     return (
       <button
-        className=" py-4 text-white w-48 hover:bg-sky-700 ... border-l-2 border-slate-400 "
+        className="button-2 py-4 text-white w-48 hover:bg-sky-700 ... border-l-2 border-slate-400 "
         onClick={() => setClick(index)}
         key={index}
       >
@@ -50,10 +50,10 @@ function Tabs() {
 
   return (
     <>
-      <div className="  ">
-        <div className="flex text-white items-center pb-10 w-screen justify-evenly ">
-          <div className=" flex flex-col">{buttonRender}</div>
-          <div className="flex w-96 h-48">
+      <div className=" data-1 ">
+        <div className=" tabs-main flex text-white items-center pb-10 w-screen justify-evenly ">
+          <div className=" tabs flex flex-col">{buttonRender}</div>
+          <div className="flex w-96 h-100">
             {renderData.heading}
             {renderData.name}
           </div>

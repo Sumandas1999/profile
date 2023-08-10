@@ -16,7 +16,7 @@ function App() {
   return (
     <>
 
-      <div className="">
+      <div className="nav">
         <nav className="bg-#8c0f00  py-4">
           <ul className="flex flex-row space-x-20 space-x ... pl-20 ">
             <ul className='text-white font-normal text-2xl'>SUMAN DAS</ul>
@@ -29,27 +29,28 @@ function App() {
 
 
       <div className='page1'>
-        <div className='head1'>
-
+        <div className='head1 '>
+      <div className='player-main'> 
         <Player
           src={animation}
-          className="player"
+          className="players"
           loop
           autoplay
-          speed={0}
-          style={{ height: '400px', width: '400px' }}
-        />
+          speed={0.5}
+          style={{ height: '200px', width: '200px' }}
+        /></div>
         <Player
           src={hii}
-          className="player"
+          className="players"
           loop
           autoplay
           speed={0}
-          style={{ height: '200px', width: '200px' }}
+          style={{ height: '100px', width: '100px' }}
         />
+        
         <div>
-          <h1 className=' pt-10  font-extrabold text-transparent text-6xl bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent pb-10'  > I'm Suman Das </h1>
-          <p className='text-3xl text-white italic hover:not-italic '>“Great web design without functionality is like <br/>a sports car with no engine.”</p>
+          <h1 className=' intro pt-10  font-extrabold text-transparent text-6xl bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent pb-10'  > I'm Suman Das </h1>
+          <p className='quote text-3xl text-white italic hover:not-italic '>“Great web design without functionality is like <br/><span className='rest-line'>a sports car with no engine.”</span></p>
           </div>
         </div>
 
@@ -61,7 +62,7 @@ function App() {
         <h3 className=' text-white text-lg tracking-wider pr-2'>WORK</h3> <h3 className=' text-red-700 font-bold ... text-lg tracking-wider'> EXPERIENCE</h3>
         <div className='bg-black w-4/6 h-px mt-4 ml-3'> </div>
       </div>
-      <div>
+      <div className='tabs'>
         <Tabs />
       </div>
 
