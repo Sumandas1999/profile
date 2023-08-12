@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/bitcoin.svg";
+
 import insta from "../images/instagram.svg";
 import git from "../images/github.svg";
 import walk from "../lotties/walking-man.json";

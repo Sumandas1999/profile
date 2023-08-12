@@ -38,7 +38,7 @@ function App() {
           loop
           autoplay
           speed={0.5}
-          style={{ height: '200px', width: '200px' }}
+          style={{ height: '30vh', width: '30vw' }}
         /></div>
         <Player
           src={hii}
@@ -46,7 +46,7 @@ function App() {
           loop
           autoplay
           speed={0}
-          style={{ height: '100px', width: '100px' }}
+          style={{ height: '20vh', width: '20vw' }}
         />
         
         <div>
