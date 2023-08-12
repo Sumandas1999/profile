@@ -29,7 +29,7 @@ const Footer = () => {
         loop
         autoplay
         speed={1}
-        style={{ height: "100px", width: "100px" }}
+        style={{ height: "15vhpx", width: "15vw" }}
       />
       
       <div className="flex flex-col justify-self-end  space-y-4">
