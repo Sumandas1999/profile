@@ -50,8 +50,8 @@ function Tabs() {
 
   return (
     <>
-      <div className=" data-1 ">
-        <div className=" tabs-main flex text-white items-center pb-10 w-screen justify-evenly ">
+      <div className=" data-1  ">
+        <div className=" tabs-main flex text-white items-center pb-10 w-40vw justify-evenly ">
           <div className=" tabs flex flex-col">{buttonRender}</div>
           <div className="flex w-96 h-100">
             {renderData.heading}

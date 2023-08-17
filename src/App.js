@@ -63,7 +63,7 @@ function App() {
         <h3 className=' text-white text-lg tracking-wider pr-2'>WORK</h3> <h3 className=' text-red-700 font-bold ... text-lg tracking-wider'> EXPERIENCE</h3>
         <div className='bg-black w-4/6 h-px mt-4 ml-3'> </div>
       </div>
-      <div className='tabs'>
+      <div className='tabs '>
         <Tabs />
       </div>
 

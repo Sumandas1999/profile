@@ -25,11 +25,11 @@ const Footer = () => {
       </div>
       <Player
         src={walk}
-        className="player flex  flex justify-start hover:justify-between"
+        className="player "
         loop
         autoplay
         speed={1}
-        style={{ height: "15vhpx", width: "15vw" }}
+        style={{ height: "13vh", width: "13vw" }}
       />
       
       <div className="flex flex-col justify-self-end  space-y-4">
