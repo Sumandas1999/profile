@@ -19,7 +19,7 @@ function App() {
       <div className="nav">
         <nav className="bg-#8c0f00  py-4">
           <ul className="flex flex-row space-x-20 space-x ... pl-20 ">
-            <ul className='text-white font-normal text-2xl'>SUMAN DAS</ul>
+            <ul className='text-black font-normal text-2xl'>SUMAN DAS</ul>
             {/* <ul className='text-white hover:text-sky-400'><a href={About}>ABOUT</a></ul>
             <ul className='text-white hover:text-sky-400'>PROJECTS</ul>
             <ul className='text-white hover:text-sky-400'> RESUME</ul>  no need to change
@@ -51,7 +51,7 @@ function App() {
         
         <div>
           <h1 className=' intro pt-10  font-extrabold text-transparent text-6xl bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent pb-10'  > I'm Suman Das </h1>
-          <p className='quote text-3xl text-white italic hover:not-italic '>“Great web design without functionality is like <br/><span className='rest-line'>a sports car with no engine.”</span></p>
+          <p className='quote text-3xl text-black italic hover:not-italic '>“Great web design without functionality is like <br/><span className='rest-line'>a sports car with no engine.”</span></p>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ function App() {
       </div>
 
       <div className='flex flex-wrap justify-center mb-9 w-6/6'>
-        <h3 className=' text-white text-lg tracking-wider pr-2'>WORK</h3> <h3 className=' text-red-700 font-bold ... text-lg tracking-wider'> EXPERIENCE</h3>
+        <h3 className=' text-black text-lg tracking-wider pr-2'>WORK</h3> <h3 className=' text-red-700 font-bold ... text-lg tracking-wider'> EXPERIENCE</h3>
         <div className='bg-black w-4/6 h-px mt-4 ml-3'> </div>
       </div>
       <div className='tabs '>

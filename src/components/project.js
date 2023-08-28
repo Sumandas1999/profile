@@ -4,9 +4,9 @@ import web from '../lotties/animation_ll11q3wj.json'
 const Project = () => {
     return (
         <> <div className="flex flex-wrap justify-center mb-9 w-6/6">
-            <h3 className=" text-lg tracking-wider pr-2">Project</h3>
+            
             <h3 className=" font-bold ... text-lg tracking-wider">
-                Done
+            Projects
             </h3>
             <div className="bg-black w-4/6 h-px mt-4 ml-3"> </div>
         </div>

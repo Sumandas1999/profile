@@ -28,7 +28,7 @@ function Tabs() {
     if(click === index){
       return (
         <button
-          className=" button-1 py-4  w-48 bg-sky-700 ... border-l-2 border-slate-400 "
+          className=" button-1 py-4  w-48 bg-red-400 ... border-l-2 border-slate-400 "
           onClick={() => setClick(index)}
           key={index}
         >
@@ -38,7 +38,7 @@ function Tabs() {
     }
     return (
       <button
-        className="button-2 py-4 text-white w-48 hover:bg-sky-700 ... border-l-2 border-slate-400 "
+        className="button-2 py-4 text-black w-48 hover:bg-red-400 ... border-l-2 border-slate-400 "
         onClick={() => setClick(index)}
         key={index}
       >
@@ -51,7 +51,7 @@ function Tabs() {
   return (
     <>
       <div className=" data-1  ">
-        <div className=" tabs-main flex text-white items-center pb-10 w-40vw justify-evenly ">
+        <div className=" tabs-main flex text-black items-center pb-10 w-40vw justify-evenly ">
           <div className=" tabs flex flex-col">{buttonRender}</div>
           <div className="flex w-96 h-100">
             {renderData.heading}
