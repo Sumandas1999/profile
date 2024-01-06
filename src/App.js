@@ -51,7 +51,7 @@ function App() {
         
         <div>
           <h1 className=' intro pt-10  font-extrabold text-transparent text-6xl bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent pb-10'  > I'm Suman Das </h1>
-          <p className='quote text-3xl text-black italic hover:not-italic '>“Great web design without functionality is like <br/><span className='rest-line'>a sports car with no engine.”</span></p>
+          <p className='quote text-3xl text-black italic '>“Great web design without functionality is like <br/><span className='rest-line'>a sports car with no engine.”</span></p>
           </div>
         </div>
 
